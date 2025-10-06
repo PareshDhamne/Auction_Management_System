@@ -1,0 +1,47 @@
+{
+  "name": "myapp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start": "vite",
+    "start-dotnet-react": "concurrently --names \"DOTNET,REACT\" --prefix-colors \"cyan,green\" \"cd \\\"D:/final project/Yore/product.netserver/YoreDemo/YoreDemo\\\" && dotnet run\" \"cd \\\"D:/final project/Yore\\\" && npm run start\""
+  },
+  "dependencies": {
+    "@stomp/stompjs": "^7.1.1",
+    "@syncfusion/ej2-react-grids": "^30.2.4",
+    "@tailwindcss/vite": "^4.1.11",
+    "axios": "^1.11.0",
+    "express": "^5.1.0",
+    "jwt-decode": "^4.0.0",
+    "react": "^19.1.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.1.0",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.7.0",
+    "react-select": "^5.10.2",
+    "react-toastify": "^11.0.5",
+    "sockjs-client": "^1.6.1",
+    "stomp": "^0.1.1",
+    "stompjs": "^2.3.3",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "concurrently": "^9.2.0",
+    "eslint": "^9.30.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "vite": "^7.0.4",
+    "vite-plugin-node-polyfills": "^0.24.0"
+  }
+}
